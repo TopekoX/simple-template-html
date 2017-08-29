@@ -1,0 +1,126 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+body{
+  background-color: #ffffff;
+}
+#wrapper{
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+#header{
+  background: url('img/bg-header-glacier.jpg') no-repeat #104064;
+  height: 180px;
+  width: 100%;
+  padding: 5px 5px 0 5px;
+  margin: 0px 0px 0px 0px;;
+  overflow: hidden;
+}
+#header img{
+  width: 300px;
+  margin: 5px 0 5px 10px;
+  float: left;
+}
+#header form{
+  float: right;
+  margin-top: 20px;
+	margin-right: 30px;
+}
+#header form input{
+  border: 0;
+  height: 30px;
+  font-size: 22px;
+}
+#menu-bar{
+  margin-top: 0;
+  margin-bottom: 20px;
+  height: 40px;
+  width: 100%;
+  background-color: #2c2727;
+  padding: 5px;
+}
+#menu{
+  list-style: none;
+}
+#menu li{
+  float: left;
+  padding: 10px 20px;
+  border-right: 1px solid #555555;
+}
+#menu li a{
+  text-decoration: none;
+  color: #f7fcf2;
+}
+#menu li a:hover{
+  background-color: #27293d;
+}
+#content{
+  margin: 0 auto;
+  width: 75%;
+  padding: 20px;
+  overflow: hidden;
+}
+#daftar-artikel{
+  float: left;
+  width: 75%;
+}
+.artikel{
+  background-color: #f4eff3;
+  padding: 20px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+.artikel img{
+  width: 300px;
+  height: 200px;
+  float: left;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.artikel b{
+  margin-top: 10px;
+  color: #616060;
+	background:#DDDDDD;
+	padding:3px;
+	font-size:12px;
+	font-weight:bold;
+	margin-right:10px;
+}
+.artikel a{
+    display: block;
+  	text-align: right;
+  	color: #636363;
+}
+#sidebar{
+  float: right;
+  width: 20%;
+}
+#sidebar h2{
+  font-size: 18px;
+	margin: 10px 0;
+}
+#sidebar p{
+	line-height: 20px;
+	color: #636363;
+}
+#sidebar ul{
+	margin-left: 10px;
+}
+#sidebar ul li a{
+	color: #636363;
+	text-decoration: none;
+}
+#footer{
+	clear: both;
+	margin:0px 0;
+	text-align:center;
+	background-color: #2c2727;
+	padding:5px;
+	color:#f7fcf2;
+  height: 50px;
+}#footer p{
+  padding-top: 20px;
+}
